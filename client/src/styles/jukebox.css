@@ -1,0 +1,106 @@
+#statTable table {
+  border-collapse: separate;
+  border-spacing: 0px;
+  overflow: auto;
+  width: 100%;
+  color: #2e343a;
+  font-size: 0.7rem;
+  line-height: 30px;
+}
+
+#statDiv {
+  overflow: auto;
+  max-height: 300px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 80px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+#statTable tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+#statTable th,
+td {
+  padding: 6px;
+  text-align: center;
+  vertical-align: top;
+  border-left: 1px solid #ddd;
+}
+
+#statTable td {
+  border-top: 1px solid #ddd;
+}
+
+#statTable th {
+  color: #575757;
+  background: #f7f7f7;
+  font-weight: normal;
+}
+
+#statTable .table-nicknames-h,
+.table-names {
+  text-align: left;
+  padding-left: 10px;
+  border-left: 0;
+  width: 60%;
+}
+
+.options {
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #f44336;
+  color: white;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+#buttonOptions {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50px;
+}
+
+#songname {
+  display: block;
+}
+
+#controls {
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#play {
+  padding: 15px 15px;
+  margin-right: 10px;
+}
+
+#skip {
+  padding: 15px 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.options:hover {
+  cursor: pointer;
+  background-color: #cc66ff;
+}
+
+#gameover {
+  padding: 15px 15px;
+  margin-left: 10px;
+}

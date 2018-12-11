@@ -1,0 +1,24 @@
+#navbar {
+  background-color: #cc0000;
+  min-height: 48px;
+  max-height: 96px;
+  overflow: auto;
+}
+
+#navbar .rightside {
+  float: right;
+  margin-left: 10px;
+  margin-right: 10%;
+}
+
+#navbar span {
+  color: #f4f4f4;
+  line-height: 48px;
+}
+
+#navbar .navname {
+  float: left;
+  margin-left: 10%;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
